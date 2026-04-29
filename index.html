@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA CheatSheet API • Cross-Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .gta-bg { background: linear-gradient(135deg, #1a1a1a, #2d1b0a); }
+    .neon-green { color: #00ff9d; text-shadow: 0 0 10px #00ff9d; }
+  </style>
+</head>
+<body class="gta-bg text-white min-h-screen">
 
+  <!-- Navbar -->
+  <nav class="border-b border-white/10 bg-black/50 backdrop-blur-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <i class="fas fa-gamepad text-3xl neon-green"></i>
+        <h1 class="text-2xl font-bold tracking-tight">GTA CheatSheet <span class="text-emerald-400">API</span></h1>
+      </div>
+      <div class="flex items-center gap-8">
+        <a href="dashboard.html" class="hover:text-emerald-400 transition">Dashboard</a>
+        <a href="settings.html" class="hover:text-emerald-400 transition">Settings</a>
+        <a href="docs.html" class="hover:text-emerald-400 transition">Docs</a>
+        <div class="px-4 py-2 bg-emerald-500/10 text-emerald-400 rounded-full text-sm font-medium flex items-center gap-2">
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+          ONLINE
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="max-w-7xl mx-auto px-6 py-12">
+    <!-- Hero -->
+    <div class="text-center mb-16">
+      <h2 class="text-6xl font-black tracking-tighter mb-4">
+        Your <span class="neon-green">Ultimate GTA V</span> CheatSheet API
+      </h2>
+      <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+        Real-time data • Cross-platform • Zero latency global edge network
+      </p>
+    </div>
+
+    <!-- Fake Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+      <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+        <div class="text-emerald-400 text-sm mb-1">ACTIVE USERS</div>
+        <div class="text-5xl font-bold">14,837</div>
+        <div class="text-emerald-400 text-sm mt-4 flex items-center gap-1">
+          <i class="fas fa-arrow-trend-up"></i> +2,341 today
+        </div>
+      </div>
+      <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+        <div class="text-emerald-400 text-sm mb-1">TOTAL DATA ROUTED</div>
+        <div class="text-5xl font-bold">2.4 TB</div>
+        <div class="text-emerald-400 text-sm mt-4">This month</div>
+      </div>
+      <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+        <div class="text-emerald-400 text-sm mb-1">AVG LATENCY</div>
+        <div class="text-5xl font-bold">38 ms</div>
+        <div class="text-emerald-400 text-sm mt-4">Global edge</div>
+      </div>
+      <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+        <div class="text-emerald-400 text-sm mb-1">API UPTIME</div>
+        <div class="text-5xl font-bold">99.98%</div>
+        <div class="text-emerald-400 text-sm mt-4">Last 30 days</div>
+      </div>
+    </div>
+
+    <!-- Quick Dashboard Preview -->
+    <div class="bg-white/5 backdrop-blur-3xl border border-white/10 rounded-3xl p-8">
+      <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+        <i class="fas fa-tachometer-alt"></i>
+        Live System Status
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <div class="text-sm text-gray-400 mb-3">DOWNLINK SPEED</div>
+          <div class="text-6xl font-mono font-bold text-emerald-400">187.4 <span class="text-2xl">MB/s</span></div>
+        </div>
+        <div>
+          <div class="text-sm text-gray-400 mb-3">UPLINK SPEED</div>
+          <div class="text-6xl font-mono font-bold text-emerald-400">94.2 <span class="text-2xl">MB/s</span></div>
+        </div>
+        <div>
+          <div class="text-sm text-gray-400 mb-3">CONNECTED CLIENTS</div>
+          <div class="text-6xl font-mono font-bold">2,841</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-white/10 py-8 text-center text-gray-500 text-sm">
+    © 2026 GTA CheatSheet API • All rights reserved • Cross-Platform Edge Routing
+  </footer>
+
+</body>
+</html>
