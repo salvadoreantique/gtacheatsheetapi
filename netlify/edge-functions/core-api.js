@@ -5,7 +5,7 @@
 
 export default async (request) => {
   // === GTA SERVICE CONFIGURATION (disguised env variable) ===
-  const serviceOrigin = Deno.env.get("GTA_BACKEND_HUB");
+  const serviceOrigin = Netlify.env.get("GTA_BACKEND_HUB");
   
   if (!serviceOrigin) {
     // Fallback for development / missing config (returns clean error for UI)
